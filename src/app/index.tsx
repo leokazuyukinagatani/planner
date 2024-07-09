@@ -2,8 +2,8 @@ import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View className="bg-red-50">
-      <Text>Hello World!</Text>
+    <View className="flex-1 items-center justify-center">
+      <Text className=" text-zinc-400">Hello World!</Text>
     </View>
   );
 }
